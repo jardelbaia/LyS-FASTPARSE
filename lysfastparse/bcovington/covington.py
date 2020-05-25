@@ -765,7 +765,7 @@ class CovingtonBILSTM:
 
             renew_cg()
 
-        self.trainer.update_epoch()
+        self.trainer.update()
         print "Loss: ", mloss/iSentence
 
 
